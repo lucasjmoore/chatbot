@@ -1,0 +1,126 @@
+/*
+This is the css file. You can put any custom css you chose to here.
+*/
+
+html, body, .ng-scope {
+  height: 100%;
+}
+
+body {
+/*  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+*/
+/*background-color: #566778;*/
+}
+/*
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+    color: black;
+}
+li:nth-child(odd) {
+    color: #777;
+}
+li:nth-child(even) {
+    color: blue;
+}*/
+
+#chatBotDemo{
+  margin: 10px;
+}
+
+.chatMessages{
+  padding-top: 5px;
+}
+.chatStyleUser{
+  list-style: none;
+}
+.chatStyleBetaBot{
+  list-style: none;
+  background-color: #B9D3FF;
+}
+
+#homepageMainCover{
+    min-width: 800px;
+  /*background: url('../public_media/betabots_mockup_website.png');
+  background-repeat: no-repeat;
+
+  height: 100%;
+  width: 100%;*/
+
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /*background: url(../img/star_night.jpg) no-repeat center center fixed; */
+  background: url('../public_media/betabots_mockup_website.png') no-repeat fixed; /* center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-size: 100%;*/
+  z-index: 0px;
+}
+
+#homepageMainCover > h1{
+  color: #FFF;
+  /*top: -10%;*/
+}
+
+#vertText {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#appInfo{
+  /*background: url('../public_media/betabots_mockup_website.png');
+  background-repeat: no-repeat;
+
+  height: 100%;
+  width: 100%;*/
+
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /*background: url(../img/star_night.jpg) no-repeat center center fixed; */
+  background: url('../public_media/mockup_apppage.png') no-repeat; /*center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-size: 100%;*/
+  z-index: 50px;
+}
+
+#appInfoContent{
+  color: #dfdfdf;
+}
+
+#appDemoBtn{
+  position: absolute;
+  left: 10%;
+  top: 35%;
+}
+
+#howItWorksPage{
+
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /*background: url(../img/star_night.jpg) no-repeat center center fixed; */
+  background: url('../public_media/mockup_howitworkspage.png') no-repeat; /*center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-size: 100%;*/
+  z-index: 100px;
+
+}
+
