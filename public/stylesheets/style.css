@@ -124,3 +124,22 @@ li:nth-child(even) {
 
 }
 
+
+#theHubPage{
+
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  /*background: url(../img/star_night.jpg) no-repeat center center fixed; */
+  background: url('../public_media/mockup_thehubpage.png') no-repeat; /*center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-size: 100%;*/
+  z-index: 100px;
+
+}
+
+
+
